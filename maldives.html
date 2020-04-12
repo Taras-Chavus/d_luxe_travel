@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Турагенство D'Luxe travel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Roboto+Condensed:700&display=swap&subset=cyrillic" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav class="dws-menu1">
+
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home icon"></i>ГОЛОВНА</a></li>
+            <li><a href=""><i class="fas fa-umbrella-beach icon"></i>РАННЄ БРОНЮВАННЯ – ЛІТО 2020</a></li>
+            <li><a href=""><i class="far fa-snowflake icon"></i>ЗИМА – 2020</a></li>
+            <li><a href=""><i class="fas fa-search icon"></i>ПОШУК ТУРУ</a></li>
+            <li><a href=""><i class="fas fa-percentage icon"></i>ВИГІДНІ ПРОПОЗИЦІЇ</a></li>
+            <li><a href="#"><i class="fas fa-globe-americas icon"></i>КРАЇНИ</a>
+            <ul>
+                <li><a href="egypt.html"><i class="fas fa-angle-right icon-in"></i>Єгипет - країна сонця</a></li>
+                <li><a href="turkey.html"><i class="fas fa-angle-right icon-in"></i>Туреччина - східна казка!</a></li>
+                <li><a href="oah.html"><i class="fas fa-angle-right icon-in"></i>ОАЕ - світ квітучих оазисів</a></li>
+                <li><a href="tailand.html"><i class="fas fa-angle-right icon-in"></i>Тайланд - незаймана природа</a></li>
+                <li><a href="shri-lanka.html"><i class="fas fa-angle-right icon-in"></i>Шрі-Ланка - подалі від шуму і метушні</a></li>
+            </ul>
+            </li>
+            <li><a href=""><i class="fas fa-fish icon"></i>ЕКЗОТИКА</a>
+            <ul>
+                <li><a href="dominicana.html"><i class="fas fa-angle-right icon-in"></i>Домінікана - екзотичний скарб</a></li>
+                <li><a href="indonesia.html"><i class="fas fa-angle-right icon-in"></i>Індонезія - країна в Океанії</a></li>
+                <li><a href="mauritius.html"><i class="fas fa-angle-right icon-in"></i>Маврикій - смарагдовий острів</a></li>
+                <li><a href="india.html"><i class="fas fa-angle-right icon-in"></i>Індія - країна контрастів</a></li>
+            </ul>
+            </li>
+            <li><a href=""><i class="fas fa-plane-departure icon"></i>ТИПИ ТУРІВ</a>
+            <ul>
+                <li><a href=""><i class="fas fa-angle-right icon-in"></i>ЕКСКУРСІЙНІ тури</a></li>
+                <li><a href=""><i class="fas fa-angle-right icon-in"></i>ГІРСЬКОЛИЖНІ тури</a></li>
+                <li><a href=""><i class="fas fa-angle-right icon-in"></i>ВЕСІЛЬНІ тури</a></li>
+                <li><a href=""><i class="fas fa-angle-right icon-in"></i>КРУЇЗИ - морські подорожі</a></li>
+                <li><a href=""><i class="fas fa-angle-right icon-in"></i>Тури для ГУРМАНІВ</a></li>
+            </ul>
+            </li>
+            <li><a href=""><i class="fas fa-phone icon"></i>КОНТАКТИ</a>
+            <ul>
+                <li><a href=""><i class="fas fa-angle-right icon-in"></i>Новини</a></li>
+                <li><a href=""><i class="fas fa-angle-right icon-in"></i>Про нас</a></li>
+            </ul>
+            </li>
+        </ul>        
+
+    </nav>
+
+
+
+    <div class="background1">
+        <div class="round-corners1">
+        <div class="all1">
+            <input checked type="radio" name="respond" id="desktop1">
+                <article id="slider1">
+                        <input checked type="radio" name="slider" id="switch11">
+                        <input type="radio" name="slider" id="switch12">
+                        <input type="radio" name="slider" id="switch13">
+                        <input type="radio" name="slider" id="switch14">
+                        <input type="radio" name="slider" id="switch15">
+                    <div id="slides1">
+                        <div id="overflow1">
+                            <div class="image1">
+                                <article><img src="./IMG/maldives/maldives-pirs.jpg"></article>
+                                <article><img src="./IMG/maldives/donut.jpg"></article>
+                                <article><img src="./IMG/maldives/fish.jpg"></article>
+                                <article><img src="./IMG/maldives/sunset.jpg"></article>
+                                <article><img src="./IMG/maldives/sand.jpg"></article>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="controls1">
+                        <label for="switch11"></label>
+                        <label for="switch12"></label>
+                        <label for="switch13"></label>
+                        <label for="switch14"></label>
+                        <label for="switch15"></label>
+                    </div>
+                    <div id="active1">
+                        <label for="switch11"></label>
+                        <label for="switch12"></label>
+                        <label for="switch13"></label>
+                        <label for="switch14"></label>
+                        <label for="switch15"></label>
+                    </div>
+                </article>
+        </div>
+        </div>
+        </div>
+</header>
+
+<main>
+    <div class="form-container">
+
+        <div>
+        <form action="mail.php" method="POST">
+            <div>
+                <h3>Куди</h3>
+                <input name="user-where" type="text"> 
+            </div>
+                <div>
+                    <h3>Коли</h3>
+                    <input name="user-data" type="date">
+                </div>
+                    <div>
+                        <h3>Тривалість</h3>
+                        <div>
+                        <input name="from-user-nights" type="number" min=0 oninput="validity.valid||(value='');">
+                        <p>_</p>
+                        <input name="to-user-nights" type="number" min=0 oninput="validity.valid||(value='');">
+                        <p>ночей</p>
+                        </div>
+                    </div>
+                        <div>
+                            <h3>Хто їде</h3>
+                            <div>
+                            <p>Дорослі:</p>
+                            <input name="user-adults" type="number" min=0 oninput="validity.valid||(value='');">
+                            <p>Діти:</p>
+                            <input name="user-kids" type="number" min=0 oninput="validity.valid||(value='');">
+                            </div>
+                        </div>
+         
+            <div><button type="submit" class="butt1">Надіслати запит</button></div>
+    
+        </form>
+        </div>
+    
+    </div>
+
+
+<div class="tablet-div">
+<div class="tablet">
+
+    <img width="10px" height="10px" src="./IMG/camera.png" alt="">
+
+<div style="margin: 0;">
+    <img height="340px" src="./IMG/maldives/water-in-cut.jpg">
+  
+    <p>Мальдіви – це найкраще місце не лише для молодят, але й для відпочинку з дитиною, якій буде цікаво поспостерігати за екзотичними тваринами цього місця, папугами, різнокольоровими ящірками і крабами.</p>
+</div>
+
+    <img  width="30px" height="30px"  src="./IMG/button.png" alt="">
+
+</div>
+
+<div style="background: transparent;" class="attractions-icon">
+    
+        <h1>ЗАЛИШІТЬ ЗАПИТ ПРЯМО ЗАРАЗ</h1>
+        <i class="fas fa-arrow-alt-circle-up"></i>
+    
+</div>
+</div>
+</main>
+
+
+<footer>
+
+    <div class="icon-wrapper">
+        <div>
+            <div>
+                <h2>+38 (097) 783 56 16,</h2>
+                <h2>+38 (067) 777 08 99</h2>
+            </div>
+            <p>sanlighttravel77@gmail.com</p>
+        </div>
+    
+    <div>
+    <ul class="social">
+        <a target="blank" href="https://cutt.ly/8rMLN31"><li class="social-items facebook"><i class="fab fa-facebook-f"></i></li></a>
+        <a target="blank" href="https://instagram.com/_deluxetravel_?igshid=hf3exi4dj5b5"><li class="social-items instagram"><i class="fab fa-instagram"></i></li></a>
+        <a target="blank" href="https://cutt.ly/crCjLCc"><li class="social-items viber"><i class="fab fa-viber"></i></li></a>
+    </ul>
+    </div>
+    </div>
+    
+
+</footer>
+</body>
+</html>
