@@ -1,0 +1,157 @@
+@media screen and (min-device-width: 1620px){
+    .block-text-country p{
+        width: 90%;
+        font-size: 15px;
+    }
+    .form-in-coutries{
+        width: 95%;
+    }
+    .wrapper-form-in-coutries{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .additional-information-block{
+        width: 87%;
+    }
+    .additional-information-block textarea{
+        width: 100%;
+    }
+    .img-countries-block{
+        width: 92%;
+        height: 255px;
+        display: flex;
+        justify-content: end;
+    }
+    .img-block img{
+        width: 30.6%;
+        height: 80%;
+    }
+    .form-wrapper1{
+        display: flex;
+        justify-content: start;
+    }
+    .form1{
+        width: 90%;
+        margin: 0;
+    }
+}
+@media screen and (min-device-width: 1900px){
+    .img-countries-block{
+        height: 300px;
+    }
+    .column-advertisements-block{
+        width: 22%;
+    }
+    .wrapper-column{
+        width: 78%;
+    }
+    .form-in-coutries{
+        height: 400px;
+        padding-top: 0px;
+    }
+    .inputs-block{
+        width: 280px;
+    }
+    .input-in-form{
+        height: 31px;
+    }
+    .inputs-block h3{
+        font-size: 25px;
+    }
+    .additional-information-block textarea{
+        height: 80px;
+    }
+    .additional-information-block{
+        width: 90%;
+    }
+    .form-button-block button{
+        margin-top: 30px;
+        height: 55px;
+        width: 220px;
+        font-size: 18px;
+    }
+    .block-text-country p{
+        font-size: 17px;
+    }
+    .form-wrapper1{
+        height: 380px;
+    }
+}
+@media screen and (min-device-width: 2100px){
+    .info-input-block{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .background-white-seasons1{
+        width: 388px;
+        height: 900px;
+    }
+    .wrapper-seasons1{
+        height: 828px;
+    }
+    .type-of-season{
+        width: 283px;
+        height: 162px;
+    }
+    .div-seasons1{
+        height: 700px;
+    }
+    .title-of-seasons1 h2{
+        font-size: 25px;
+    }
+    .type-of-season h3{
+        font-size: 28px;
+    }
+    .type-of-season div a{
+        font-size: 17px;
+    }
+    .background-white-destination{
+        width: 388px;
+        height: 1400px;
+    }
+    .popular-destination{
+        height: 1283px;
+    }
+    .popular-countries a{
+        font-size: 18px;
+    }
+    .title-of-destination h3{
+        font-size: 24px;
+    }
+}
+@media screen and (min-device-width: 320px){
+    .form-in-coutries{
+        width: 90%;
+    }
+    .block-text-country p{
+        width: 90%;
+        font-size: 14px;
+    }
+    .img-countries-block{
+        width: 90%;
+        padding: 0 15px 0 15px;
+        height: 184px;
+    }
+    .img-block img{
+        width: 253px;
+        height: 154px;
+    }
+    .form1{
+        width: 82%;
+        margin: 0;
+    }
+}
+@media screen and (min-device-width: 768px){
+    .column-advertisements-block{
+        width: 30%;
+    }
+    .wrapper-column{
+        width: 75%;
+    }
+    .img-block img{
+        width: 32%;
+        height: 80%;
+    }
+}
