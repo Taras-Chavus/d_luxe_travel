@@ -135,12 +135,24 @@
         height: 184px;
     }
     .img-block img{
-        width: 253px;
+        width: 243px;
         height: 154px;
     }
     .form1{
         width: 82%;
         margin: 0;
+    }
+    .column-advertisements-block{
+        width: 27%;
+    }
+    .wrapper-column{
+        width: 73%;
+    }
+    .wrapper-seasons{
+        width: 91%;
+    }
+    .divs-news{
+        margin-left: 10px;
     }
 }
 @media screen and (min-device-width: 768px){
