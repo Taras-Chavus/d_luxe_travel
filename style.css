@@ -214,6 +214,7 @@ textarea {
 .tourists{
     flex-direction: column;
     position: absolute;
+    z-index: 999;
 }
 .ds-none .tourists{
     display: none;
@@ -358,7 +359,6 @@ textarea {
 }
 .small-card1 h2{
     text-shadow: 0 2px 16px #000000;
-    text-align: end;
     font-size: 20px;
     margin: 3px 5px 5px 15px ;
     font-family: 'Roboto Condensed';
@@ -1121,6 +1121,14 @@ textarea {
     font-size: 14px;
     width: 848px;
 }
+.block-text-country li{
+    text-align: start;
+    font-family: 'Open Sans';
+    font-size: 14px;
+}
+.block-text-country ul{
+    width: 90%;
+}
 .img-countries-block{
     margin-top: 20px;
     background-color: #fafafa;
@@ -1264,7 +1272,37 @@ textarea {
     flex-direction: column;
     align-items: center;
     width: 86%;
-    height: 1142px;
+    height: 1171px;
     background-color: #fafafa;
     border: 1px solid #f0f0f0;
+}
+.scaner1{
+    padding: 50px 0 50px 0;
+    z-index: 0;
+}
+.propositions-countries h2{
+    text-align: center;
+    font-family: 'Roboto Condensed';
+    font-size: 32px;
+    margin: 50px 0 10px 0;
+}
+.list-propositions *{
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+    font-family: 'Open Sans';
+}
+.list-propositions{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-propositions li a img{
+    margin: 0 10px -3px 0px;
+    width: 35px; 
+    height: 21px;
+    line-height: 7px;
+}
+.list-propositions li{
+    width: 165px;
+    margin-top: 15px;
 }
